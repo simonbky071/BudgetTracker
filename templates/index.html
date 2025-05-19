@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title">Welcome to Budget Tracker</h2>
+            <p class="card-text">
+                Manage your finances easily. Add transactions, view your spending history, and check your financial summary.
+            </p>
+            <div class="d-flex gap-2">
+                <a href="{{ url_for('add_transaction') }}" class="btn btn-primary">
+                    <i class="fas fa-plus-circle me-1"></i>Add Transaction
+                </a>
+                <a href="{{ url_for('view_transactions') }}" class="btn btn-outline-primary">
+                    <i class="fas fa-list me-1"></i>View Transactions
+                </a>
+                <a href="{{ url_for('summary') }}" class="btn btn-outline-primary">
+                    <i class="fas fa-chart-line me-1"></i>Summary
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
