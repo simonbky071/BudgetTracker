@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/add_transaction.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
